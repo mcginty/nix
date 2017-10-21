@@ -10,7 +10,7 @@ use std::{mem, ptr, slice};
 use std::os::unix::io::RawFd;
 use sys::uio::IoVec;
 
-mod addr;
+pub mod addr;
 mod consts;
 mod ffi;
 mod multicast;
